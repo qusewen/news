@@ -1,0 +1,10 @@
+@import "../../styles/variables";
+
+.button{
+  @include button()
+}
+
+.backButton{
+  @include button(10px, #8b8b8b)
+
+}

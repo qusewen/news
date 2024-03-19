@@ -1,0 +1,19 @@
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px;
+  border: #7e7e7e solid 1px ;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+
+
+.contentBody{
+  margin-top: 20px;
+  padding: 5px 7px;
+  &>h2{
+    margin-bottom: 15px;
+  }
+}

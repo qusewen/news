@@ -1,0 +1,45 @@
+.button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+.button:hover {
+  background-color: #006fe6;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.button:active {
+  transform: translateY(-1px);
+}
+
+.backButton {
+  display: inline-block;
+  padding: 10px;
+  background-color: #8b8b8b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none;
+}
+.backButton:hover {
+  background-color: #7e7e7e;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+.backButton:active {
+  transform: translateY(-1px);
+}
+
+/*# sourceMappingURL=index.module.css.map */

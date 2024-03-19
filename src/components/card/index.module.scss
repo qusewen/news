@@ -1,0 +1,16 @@
+@import "../../styles/variables";
+
+.card {
+  @include card(800px,110px);
+}
+
+.title{
+  font-size: 24px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.text{
+  font-size: 16px;
+  margin-bottom: 15px;
+}
